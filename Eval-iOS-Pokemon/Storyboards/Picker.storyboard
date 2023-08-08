@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="haM-Ou-t1p">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Picker-->
+        <scene sceneID="e9X-Wv-R6q">
+            <objects>
+                <navigationController id="haM-Ou-t1p" customClass="NavigationController" customModule="Eval_iOS_Pokemon" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Picker" image="picker_ico" id="fWS-ik-uWV"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dly-Th-FFq">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="cNl-Lz-KCE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M79-EQ-iRT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-193" y="-711"/>
+        </scene>
+        <!--Picker View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="PickerViewController" customModule="Eval_iOS_Pokemon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eja-e3-uPr">
+                                <rect key="frame" x="0.0" y="127" width="393" height="200"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-1q-cyk">
+                                <rect key="frame" x="12" y="673" width="369" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="de0-jy-zwA"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="More info"/>
+                                <connections>
+                                    <action selector="moreInfo:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FXR-fa-jAM"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oeP-2G-QR5">
+                                <rect key="frame" x="0.0" y="338.66666666666674" width="393" height="322.33333333333326"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Eja-e3-uPr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="2VZ-5t-jL3"/>
+                            <constraint firstItem="Eja-e3-uPr" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="4ma-Zk-NJz"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rMi-1q-cyk" secondAttribute="trailing" constant="12" id="DX1-4N-FBo"/>
+                            <constraint firstItem="rMi-1q-cyk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="12" id="EGo-xq-4q9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="oeP-2G-QR5" secondAttribute="trailing" id="GUB-7k-8xQ"/>
+                            <constraint firstItem="rMi-1q-cyk" firstAttribute="top" secondItem="oeP-2G-QR5" secondAttribute="bottom" constant="12" id="HqP-gs-R4d"/>
+                            <constraint firstItem="oeP-2G-QR5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="SP8-7d-Dj0"/>
+                            <constraint firstItem="Eja-e3-uPr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="24" id="WGZ-Zl-vWy"/>
+                            <constraint firstItem="rMi-1q-cyk" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="-48" id="ZLI-Bm-rrt"/>
+                            <constraint firstItem="oeP-2G-QR5" firstAttribute="top" secondItem="Eja-e3-uPr" secondAttribute="bottom" constant="12" id="ZO1-fe-PwQ"/>
+                            <constraint firstItem="rMi-1q-cyk" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="bG7-fR-Hr7"/>
+                            <constraint firstItem="oeP-2G-QR5" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="nRD-Rt-D6J"/>
+                            <constraint firstItem="Eja-e3-uPr" firstAttribute="height" secondItem="vDu-zF-Fre" secondAttribute="height" multiplier="0.3" id="p0b-nc-IXf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IWJ-it-6oc"/>
+                    <connections>
+                        <outlet property="imgPoke" destination="oeP-2G-QR5" id="b9R-lo-iaF"/>
+                        <outlet property="picker" destination="Eja-e3-uPr" id="bB7-aA-tB0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514" y="-711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="picker_ico" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Eval-iOS-Pokemon
+
+  Created by Student07 on 08/08/2023.
+  
+*/
+
+"url_poke" = "https://www.pokemon.com/fr/pokedex/";
+"poke1" = "Bulbizarre";
+"poke2" = "Herbizarre";
+"poke3" = "Florizarre";
+"poke4" = "Salamèche";
+"poke5" = "Reptincel";
+"poke6" = "Dracaufeu";

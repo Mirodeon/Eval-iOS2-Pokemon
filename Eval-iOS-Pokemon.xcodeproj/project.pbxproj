@@ -16,6 +16,21 @@
 		F3D0B16D2A825AF000367E5C /* Eval_iOS_PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B16C2A825AF000367E5C /* Eval_iOS_PokemonTests.swift */; };
 		F3D0B1772A825AF000367E5C /* Eval_iOS_PokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1762A825AF000367E5C /* Eval_iOS_PokemonUITests.swift */; };
 		F3D0B1792A825AF000367E5C /* Eval_iOS_PokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1782A825AF000367E5C /* Eval_iOS_PokemonUITestsLaunchTests.swift */; };
+		F3D0B18A2A825CCC00367E5C /* LandPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1892A825CCC00367E5C /* LandPageViewController.swift */; };
+		F3D0B18D2A825CF300367E5C /* AuthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B18C2A825CF300367E5C /* AuthPageViewController.swift */; };
+		F3D0B18F2A825D5400367E5C /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B18E2A825D5400367E5C /* PokemonViewController.swift */; };
+		F3D0B1912A825D6200367E5C /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1902A825D6200367E5C /* PickerViewController.swift */; };
+		F3D0B1932A825D6F00367E5C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1922A825D6F00367E5C /* DetailViewController.swift */; };
+		F3D0B1952A825D9900367E5C /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D0B1942A825D9900367E5C /* TabBar.storyboard */; };
+		F3D0B1972A825DAC00367E5C /* Pokemon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D0B1962A825DAC00367E5C /* Pokemon.storyboard */; };
+		F3D0B1992A825DB800367E5C /* Picker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D0B1982A825DB800367E5C /* Picker.storyboard */; };
+		F3D0B19C2A825DED00367E5C /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B19A2A825DED00367E5C /* PokemonCell.swift */; };
+		F3D0B19D2A825DED00367E5C /* PokemonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D0B19B2A825DED00367E5C /* PokemonCell.xib */; };
+		F3D0B1A02A825E5D00367E5C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B19F2A825E5D00367E5C /* TabBarController.swift */; };
+		F3D0B1A22A825EB400367E5C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1A12A825EB400367E5C /* NavigationController.swift */; };
+		F3D0B1A62A825FAF00367E5C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1A52A825FAF00367E5C /* UIColor.swift */; };
+		F3D0B1A82A82678A00367E5C /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0B1A72A82678A00367E5C /* Struct.swift */; };
+		F3D0B1AF2A82871E00367E5C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D0B1B12A82871E00367E5C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,22 @@
 		F3D0B1722A825AF000367E5C /* Eval-iOS-PokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eval-iOS-PokemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D0B1762A825AF000367E5C /* Eval_iOS_PokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eval_iOS_PokemonUITests.swift; sourceTree = "<group>"; };
 		F3D0B1782A825AF000367E5C /* Eval_iOS_PokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eval_iOS_PokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3D0B1892A825CCC00367E5C /* LandPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandPageViewController.swift; sourceTree = "<group>"; };
+		F3D0B18C2A825CF300367E5C /* AuthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPageViewController.swift; sourceTree = "<group>"; };
+		F3D0B18E2A825D5400367E5C /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		F3D0B1902A825D6200367E5C /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		F3D0B1922A825D6F00367E5C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F3D0B1942A825D9900367E5C /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		F3D0B1962A825DAC00367E5C /* Pokemon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pokemon.storyboard; sourceTree = "<group>"; };
+		F3D0B1982A825DB800367E5C /* Picker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Picker.storyboard; sourceTree = "<group>"; };
+		F3D0B19A2A825DED00367E5C /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		F3D0B19B2A825DED00367E5C /* PokemonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCell.xib; sourceTree = "<group>"; };
+		F3D0B19F2A825E5D00367E5C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F3D0B1A12A825EB400367E5C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F3D0B1A52A825FAF00367E5C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F3D0B1A72A82678A00367E5C /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		F3D0B1B02A82871E00367E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3D0B1B22A82874900367E5C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +130,12 @@
 		F3D0B1542A825AEE00367E5C /* Eval-iOS-Pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				F3D0B1A32A825F9700367E5C /* Utils */,
+				F3D0B19E2A825DF900367E5C /* BarControllers */,
+				F3D0B1882A825CA500367E5C /* Models */,
+				F3D0B1872A825C9C00367E5C /* Cells */,
+				F3D0B1862A825C9400367E5C /* Storyboards */,
+				F3D0B1852A825C8300367E5C /* ViewControllers */,
 				F3D0B1552A825AEE00367E5C /* AppDelegate.swift */,
 				F3D0B1572A825AEE00367E5C /* SceneDelegate.swift */,
 				F3D0B1592A825AEE00367E5C /* ViewController.swift */,
@@ -106,6 +143,7 @@
 				F3D0B15E2A825AF000367E5C /* Assets.xcassets */,
 				F3D0B1602A825AF000367E5C /* LaunchScreen.storyboard */,
 				F3D0B1632A825AF000367E5C /* Info.plist */,
+				F3D0B1B12A82871E00367E5C /* Localizable.strings */,
 			);
 			path = "Eval-iOS-Pokemon";
 			sourceTree = "<group>";
@@ -125,6 +163,70 @@
 				F3D0B1782A825AF000367E5C /* Eval_iOS_PokemonUITestsLaunchTests.swift */,
 			);
 			path = "Eval-iOS-PokemonUITests";
+			sourceTree = "<group>";
+		};
+		F3D0B1852A825C8300367E5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B1892A825CCC00367E5C /* LandPageViewController.swift */,
+				F3D0B18C2A825CF300367E5C /* AuthPageViewController.swift */,
+				F3D0B18E2A825D5400367E5C /* PokemonViewController.swift */,
+				F3D0B1902A825D6200367E5C /* PickerViewController.swift */,
+				F3D0B1922A825D6F00367E5C /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F3D0B1862A825C9400367E5C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B1942A825D9900367E5C /* TabBar.storyboard */,
+				F3D0B1962A825DAC00367E5C /* Pokemon.storyboard */,
+				F3D0B1982A825DB800367E5C /* Picker.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F3D0B1872A825C9C00367E5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B19A2A825DED00367E5C /* PokemonCell.swift */,
+				F3D0B19B2A825DED00367E5C /* PokemonCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F3D0B1882A825CA500367E5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B1A72A82678A00367E5C /* Struct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3D0B19E2A825DF900367E5C /* BarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B19F2A825E5D00367E5C /* TabBarController.swift */,
+				F3D0B1A12A825EB400367E5C /* NavigationController.swift */,
+			);
+			path = BarControllers;
+			sourceTree = "<group>";
+		};
+		F3D0B1A32A825F9700367E5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B1A42A825F9E00367E5C /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3D0B1A42A825F9E00367E5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0B1A52A825FAF00367E5C /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +315,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F3D0B1492A825AEE00367E5C;
 			productRefGroup = F3D0B1532A825AEE00367E5C /* Products */;
@@ -231,7 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D0B1972A825DAC00367E5C /* Pokemon.storyboard in Resources */,
+				F3D0B1952A825D9900367E5C /* TabBar.storyboard in Resources */,
+				F3D0B19D2A825DED00367E5C /* PokemonCell.xib in Resources */,
+				F3D0B1992A825DB800367E5C /* Picker.storyboard in Resources */,
 				F3D0B1622A825AF000367E5C /* LaunchScreen.storyboard in Resources */,
+				F3D0B1AF2A82871E00367E5C /* Localizable.strings in Resources */,
 				F3D0B15F2A825AF000367E5C /* Assets.xcassets in Resources */,
 				F3D0B15D2A825AEE00367E5C /* Main.storyboard in Resources */,
 			);
@@ -258,9 +366,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D0B1A22A825EB400367E5C /* NavigationController.swift in Sources */,
+				F3D0B1A62A825FAF00367E5C /* UIColor.swift in Sources */,
 				F3D0B15A2A825AEE00367E5C /* ViewController.swift in Sources */,
 				F3D0B1562A825AEE00367E5C /* AppDelegate.swift in Sources */,
+				F3D0B1A82A82678A00367E5C /* Struct.swift in Sources */,
+				F3D0B18F2A825D5400367E5C /* PokemonViewController.swift in Sources */,
+				F3D0B1A02A825E5D00367E5C /* TabBarController.swift in Sources */,
+				F3D0B18A2A825CCC00367E5C /* LandPageViewController.swift in Sources */,
+				F3D0B18D2A825CF300367E5C /* AuthPageViewController.swift in Sources */,
+				F3D0B1912A825D6200367E5C /* PickerViewController.swift in Sources */,
 				F3D0B1582A825AEE00367E5C /* SceneDelegate.swift in Sources */,
+				F3D0B1932A825D6F00367E5C /* DetailViewController.swift in Sources */,
+				F3D0B19C2A825DED00367E5C /* PokemonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +431,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F3D0B1B12A82871E00367E5C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D0B1B02A82871E00367E5C /* en */,
+				F3D0B1B22A82874900367E5C /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -320,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
